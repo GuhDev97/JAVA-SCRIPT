@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios</title>
+</head>
+<body>
+    <h1>Identificação de nacionalidade</h1>
+    Estrangeiro ou Não Estrangeiro: <input type="text" name="txtvel" id="txtvel"> 
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+
+        function calcular() {
+            var txtv = document.getElementById('txtvel')
+            var res = document.querySelector('div#res')
+            var país = number(txtv.value)
+            res.innerHTML = `<p>Seu Páis é ${vel}</p>`
+            res.innerHTML += `<p>Obrigado por participar da nossa pesquisa!`
+            if (vel != Brasil) {
+                res.innerHTML += <p>Você é estrangeiro!</p>
+            }
+
+        }
+
+    </script>
+</body>
+</html>
