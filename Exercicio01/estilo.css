@@ -13,6 +13,7 @@ header {
 }
 
 section {
+   
     background: white;
     border-radius: 10px;
     padding: 15px;
@@ -21,25 +22,12 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
-iframe {
-   border-radius: 80%;
-   width: 300px;
-   height: 250px;
-   overflow: hidden;
-   border: none;
-}
 
-iframe ::-webkit-scrollbar {
-    display: none;
-}
 
 div {
     text-align: center;
-    padding: 8px;
-}
+    padding: 10px;
 
-div#foto {
-    
 }
 
 footer {
