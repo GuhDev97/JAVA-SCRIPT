@@ -1,5 +1,3 @@
-
-
 let num = document.querySelector('input#fnum')
 let lista = document.querySelector('select#flista')
 let res = document.querySelector('div#res')
@@ -28,6 +26,6 @@ function adicionar() {
         item.text = `Valor ${num.value} adicionado.`
         lista.appendChild(item)
     } else {
-        window.alert('Valor invalido oou já encontrado na lista.')
+        window.alert('Valor invalido ou já encontrado na lista.')
     }
 }
